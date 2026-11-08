@@ -1,0 +1,6 @@
+{
+  "appId": "com.berfekto.swimtimer",
+  "appName": "مؤقت السباحة",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

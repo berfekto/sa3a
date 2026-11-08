@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "مؤقت السباحة الاحترافي",
+  "short_name": "مؤقت السباحة",
+  "description": "مؤقت السباحة الاحترافي للمدربين لقياس أوقات دورات متعدد السباحين مع سجل دائم للأرقام القياسية الشخصية.",
+  "id": "com.berfekto.swimtimer",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#060a12",
+  "theme_color": "#060a12",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": [
+    "sports",
+    "utilities",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshot-narrow.png",
+      "sizes": "540x1200",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "واجهة مؤقت السباحة للهاتف"
+    },
+    {
+      "src": "./screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "واجهة مؤقت السباحة لسطح المكتب"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "سجل السباحين",
+      "short_name": "السجل",
+      "description": "فتح سجل السباحين والأرقام القياسية",
+      "url": "./index.html?action=log",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "إضافة سباح",
+      "short_name": "إضافة",
+      "description": "إضافة سباح جديد للحارات",
+      "url": "./index.html?action=add",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
